@@ -46,3 +46,27 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* start of edits */
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+
+
+}
+.leftside, .rightside ,.links
+{
+  display: flex;
+  gap: 16px;
+
+}
+
+ul
+{
+  padding: 0
+}
+.notifications , .profile-image
+{flex-shrink: 0;}
